@@ -1,0 +1,111 @@
+.dbg-Border {
+  box-shadow: rgb(0, 0, 0) 0 0 0 1px inset;
+  background-color: rgba(204, 204, 204, 0.025);
+}
+
+.dbg-Border * {
+  box-shadow: rgb(0, 0, 0) 0 0 0 1px inset;
+  background-color: rgba(204, 204, 204, 0.025);
+}
+
+.dbg-Border-none {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.dbg-Border-none * {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.sw-Container_Inner {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.sw-Image-w-fluid {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  line-height: 0;
+}
+
+/* =============================================================================
+    .sw-Footer
+   ============================================================================= */
+.sw-Footer {
+  background-color: #eeeeee;
+}
+
+  .sw-Footer_Inner {
+    padding: 64px 0 24px;
+  }
+
+    .sw-FooterHeader {
+      margin: 0 0 16px;
+    }
+
+      .sw-FooterHeader_Heading {
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+        .sw-FooterHeader_HeadingBody {
+          color: #000;
+          font-size: 20px;
+          letter-spacing: 0.08em;
+          line-height: 1.6;
+        }
+
+        .sw-FooterHeader_HeadingImgContainer {
+          margin: 0 0 24px;
+        }
+
+          .sw-FooterHeader_HeadingImg {
+            vertical-align: top;
+            width: calc(144 / 326 * 100%);
+          }
+
+    /* End .sw-FooterHeader */
+
+    .sw-FooterContents {
+      margin: 0 0 64px;
+    }
+
+      .sw-FooterList {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+        .sw-FooterList_Item {
+          flex-basis: 50%;
+          padding: 8px 2em;
+        }
+
+          .sw-FooterList_Link {
+            color: #000;
+            font-size: 14px;
+            letter-spacing: 0.08em;
+            line-height: 1.6;
+            text-decoration: none;
+          }
+
+    /* End .sw-FooterContents */
+
+    .sw-FooterTitle {
+      text-align: center;
+    }
+
+      .sw-FooterTitle_Text {
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        line-height: 1.6;
+      }
+
+/* =============================================================================
+    End .sw-Footer
+   ============================================================================= */
