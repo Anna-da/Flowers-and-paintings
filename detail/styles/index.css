@@ -1,5 +1,15 @@
 .hero {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.flower-images {
+    width: 100%;
+    height: 712px;
+    object-fit: cover;
+    vertical-align: top;
 }
 
 .left_worktitle {
@@ -17,12 +27,14 @@
 }
 
 .wolk_title {
-    flex-basis: 4em;
+    flex-basis: 5em;
     background-color: rgba(244,242,238,0.7);
+    padding: 4px;
 }
 
 .wolk_contents{
     background-color: rgba(244,242,238,0.7);
+    padding: 4px;
 }
 
 .anthor_contents {
@@ -31,11 +43,13 @@
 
 .author {
     background-color: rgba(244,242,238,0.7);
-    flex-basis: 4em; 
+    flex-basis: 5em; 
+    padding:4px;
 }
 
 .wolk_author {
     background-color: rgba(244,242,238,0.7);
+    padding: 4px;
 }
 
 
@@ -50,17 +64,22 @@
 
 .main_flowertitol{
     background-color: rgba(244,242,238,0.7);
-    flex-basis: 4em;
+    flex-basis: 5em;
+    padding: 4px;
     /* display: block; */
 }
 
 .main_flowermeaning{
     background-color: rgba(244,242,238,0.7);
+    padding: 4px;
     /* display: block; */
 }
 
 .Flower_weapper {
     background-color: rgba(98,120,95,0.8); 
+    position: relative;
+    z-index: 1;
+    margin: 712px 0 0;
 }
 
 .flower_language { 
@@ -86,6 +105,8 @@
 
 .Work_weapper {
     background-color: rgba(244,242,238,0.7);
+    position: relative;
+    z-index: 1;
 }
 
 .walk-name {
@@ -128,4 +149,5 @@
     color: #FFFFFF;
     border-radius: 5px;
     padding: 12px 100px;
+    text-decoration: none;
 }
