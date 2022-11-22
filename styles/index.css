@@ -1,0 +1,290 @@
+.hero {
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.top_flower {
+    width: 100%;
+    height: 712px;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.main_logo {
+    writing-mode: vertical-rl;
+    font-size: 28px;
+    font-weight: 100;
+    font-family: 'Noto Sans JP';
+    letter-spacing: 0.3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.top_title {
+    margin: 0 auto;
+    writing-mode: vertical-rl;
+    padding: 207px 0 48px 0;
+    letter-spacing: 0.5em;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 28px;
+    font-family: 'Noto Sans JP';
+    text-indent: -4em;
+}
+
+.top_inside {
+    margin: 0 39px 80px 39px;
+}
+
+.inside {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 2;
+}
+
+.top_left_images {
+    display: flex;
+    margin: 0 0 32px 0;
+}
+
+.top_left_image {
+    width: 80%;
+}
+
+.left_image {
+    width: 100%;
+    vertical-align: top;
+}
+
+.left_image_note {
+    writing-mode: vertical-rl;
+    padding: 0 8px;
+}
+
+.left_note {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.5em;
+    padding: 0 1em;
+}
+
+.top_right_images {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 74px 0;
+}
+
+.top_right_image {
+    width: 80%;
+    order: 2;
+}
+
+.right_image {
+    width: 100%;
+    vertical-align: top;
+}
+
+.right_image_note {
+    writing-mode: vertical-rl;
+    padding: 0 0 0 ;
+}
+
+.right_note {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.5em;
+    padding: 0 1em;
+}
+
+.introduction {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.introduction_content {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    padding: 0 0 24px 0;
+}
+
+.content {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 14px;
+    padding: 0 0 48px 0;
+}
+
+.index {
+    text-align: center;
+    padding: 0 0 94px 0;
+}
+
+.index_text {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.language_flowers {
+    padding: 0 0 40px 0;
+    position: relative;
+}
+
+.heading_image_container {
+    position: relative;
+    z-index: 0;
+}
+
+.language_image {
+    width: 100%;
+}
+
+.language {
+    margin: -32px 0 0 0;
+    position: relative;
+    z-index: 1;
+    padding: 0 47px 0 0;
+}
+
+.flower_link {
+    text-decoration: none;
+    display: block;
+    background-color: rgba(233, 103, 123, 0.8);
+}
+
+.language_heading_text {
+    color: white;
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    padding: 29px 0  12px 0;
+}
+
+.language_lead_text {
+    color: white;
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.language_note_text {
+    color: white;
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 8px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px 0 34px 0;
+}
+
+.list {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lead {
+    padding: 0 0 16px 0;
+}
+
+.lead_list {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 20px;
+    border-left: 8px solid #D8B782;
+    padding: 0 0 0 8px;
+}
+
+.introduction-lead {
+    padding: 0 0 16px 0;
+}
+
+.introduction_text {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.flower-summary {
+    background-color: rgba(244,242,238,0.7); 
+    padding: 24px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP';
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.heading {
+    text-align: center;
+    padding: 56px 0 27px 0;
+    position: relative;
+}
+
+.heading_text {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.heading_text::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    display: inline-block;
+    width: 80px;
+    height: 1px;
+    transform: translateX(-50%);
+    background-color: black;
+}
+
+.announce-title {
+    text-align: center;
+    padding: 0 0 27px 0;
+    position: relative;
+}
+
+.announce-title_text {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.item {
+    display: flex;
+    padding: 0 5% 0 0;
+}
+
+.feature {
+    padding: 0 16px 0 0;
+}
+
+.announce-caption-name {
+    padding: 0 0 48px 0;
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.caption-name {
+    padding: 0 0 8px 0;
+}
+
+.caption-language {
+    padding: 0 0 8px 0;
+}
