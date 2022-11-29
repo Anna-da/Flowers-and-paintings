@@ -35,6 +35,8 @@
    ============================================================================= */
 .sw-Footer {
   background-color: #eeeeee;
+  position: relative;
+  z-index: 1;
 }
 
   .sw-Footer_Inner {
