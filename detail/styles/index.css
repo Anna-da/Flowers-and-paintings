@@ -1,5 +1,85 @@
+.hero {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.flower-images {
+    width: 100%;
+    height: 712px;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.left_worktitle {
+    writing-mode: vertical-rl;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_worktitle{
+    display: flex;
+}
+
+.wolk_title {
+    flex-basis: 5em;
+    background-color: rgba(244,242,238,0.7);
+    padding: 4px;
+}
+
+.wolk_contents{
+    background-color: rgba(244,242,238,0.7);
+    padding: 4px;
+}
+
+.anthor_contents {
+    display: flex;
+}
+
+.author {
+    background-color: rgba(244,242,238,0.7);
+    flex-basis: 5em; 
+    padding:4px;
+}
+
+.wolk_author {
+    background-color: rgba(244,242,238,0.7);
+    padding: 4px;
+}
+
+
+.right_flowertitol {
+    writing-mode: vertical-rl;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.main_flowertitol{
+    background-color: rgba(244,242,238,0.7);
+    flex-basis: 5em;
+    padding: 4px;
+    /* display: block; */
+}
+
+.main_flowermeaning{
+    background-color: rgba(244,242,238,0.7);
+    padding: 4px;
+    /* display: block; */
+}
+
 .Flower_weapper {
     background-color: rgba(98,120,95,0.8); 
+    position: relative;
+    z-index: 1;
+    margin: 712px 0 0;
 }
 
 .flower_language { 
@@ -17,8 +97,57 @@
   color: #FFFFFF;
   font-family: 'Noto Sans JP';
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
   margin: 0 23px;
   letter-spacing: 0.08em;
   padding: 0 0 48px 0;
+}
+
+.Work_weapper {
+    background-color: rgba(244,242,238,0.7);
+    position: relative;
+    z-index: 1;
+}
+
+.walk-name {
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP';
+    writing-mode: vertical-rl;
+    padding: 89px 0 48px 0;
+    letter-spacing: 0.5em;
+}
+
+.wolk-meaning {
+  font-family: 'Noto Sans JP';
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 23px;
+  letter-spacing: 0.08em;
+  padding: 0 0 48px 0;
+}
+ 
+.summary {
+    background-color: rgba(255,255,255,0.7); 
+    padding: 40px;
+    margin: 0 auto;
+    font-family: 'Noto Sans JP';
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Museumsite {
+    margin: 80px auto 0 0;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 80px ;
+}
+
+.Museumbutton {
+    background-color: rgba(98,120,95,0.8); 
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 12px 100px;
+    text-decoration: none;
 }
