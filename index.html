@@ -11,10 +11,67 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
+
+    <header class="header">
+        <div class="logo">
+            <a class="header_wrap_logo" href="#">
+                <img class="header_wrap_logo_img" src="/images/Flower art_rogo.png" alt="rogo">
+            </a>
+        </div>
+    
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="nav">
+      
+          <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+          <input id="drawer_input" class="drawer_hidden" type="checkbox">
+      
+          <!-- ハンバーガーアイコン -->
+          <label for="drawer_input" class="drawer_open"><span></span></label>
+      
+          <!-- メニュー -->
+          <nav class="nav_content">
+            <ul class="nav_list">
+              <li class="nav_item"><a href="">花言葉</a></li>
+              <li class="nav_item"><a href="">花贈り</a></li>
+              <li class="nav_item"><a href="">誕生花</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+
+    
+    <!-- <header class="header">
+        <div class="header_wrap">
+            <a class="header_wrap_logo" href="#">
+                <img class="header_wrap_logo_img" src="/images/Flower art_rogo.png" alt="rogo">
+            </a>
+            <ul class="header_wrap_index">
+                <li class="item">
+                    <a class="item_link" href="/トップページ/">トップページ</a>
+                </li>
+                <li class="item">
+                    <a class="item_link" href="/花言葉/">花言葉</a>
+                </li>
+                <li class="item">
+                    <a class="item_link" href="/花贈り/">花贈り</a>
+                </li>
+                <li class="item">
+                    <a class="item_link" href="/誕生花/">誕生花</a>
+                </li>
+            </ul>
+            <a class="Header_wrap_btn" id="menuOpen" href="#">
+                <span class="border border-top"></span>
+                <span class="border border-middle"></span>
+                <span class="border border-bottom"></span>
+            </a>
+        </div>
+    </header> -->
+
     <main class="main_top">
         <div class="hero">
             <p class="mainart">
-                <img class="top_flower" src="/images/Rectangle 1.png" alt="トップの花">
+                <img class="top_flower" src="images/Rectangle 1.png" alt="トップの花">
             </p>  
                 <p class="main_logo">想いを花にのせて</p>
         </div>
@@ -49,7 +106,7 @@
 
             <div class="introduction">
                 <h2 class="introduction_content">花と人の関係</h2>
-                <p class="content">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+                <p class="content">日本では四季の彩りを自然や花から感じ取り、暮らしに生かすと共に、花を楽しんできました。日本の独自の伝統文化である和歌、俳句、生け花、また園芸植物にも日本の四季の草花や木々が関与し、それらの文化と歴史を育んできました。現代、花々は年中入手できますが、四季折々の彩りに目を向け、その伝統を味わってみてはいかがでしょうか。</p>
             </div>
 
             <div class="index">
@@ -62,7 +119,7 @@
                         <img class="language_image" src="/images/hokusai_kesi.jpeg" alt="葛飾北斎「罌粟」罌粟">
                     </div>
                     <div class="language">
-                        <a class="flower_link" href="#"> 
+                        <a class="flower_link" href="http://127.0.0.1:5500/words/"> 
                             <div class="language_heading">
                                 <p class="language_heading_text">花言葉</p>
                             </div>
@@ -81,7 +138,7 @@
                         <img class="language_image" src="/images/kanzaka_botan.jpg" alt="神坂雪佳「深見草」牡丹">
                     </div>
                     <div class="language">
-                        <a class="flower_link" href="#"> 
+                        <a class="flower_link" href="http://127.0.0.1:5500/present/"> 
                             <div class="language_heading">
                                 <p class="language_heading_text">花を贈る</p>
                             </div>
@@ -100,7 +157,7 @@
                         <img class="language_image" src="/images/kanzaka_kakitubata.jpg" alt="神坂雪佳「八つ橋」杜若">
                     </div>
                     <div class="language">
-                        <a class="flower_link" href="#"> 
+                        <a class="flower_link" href="http://127.0.0.1:5500/birthday/"> 
                             <div class="language_heading">
                                 <p class="language_heading_text">誕生花</p>
                             </div>
