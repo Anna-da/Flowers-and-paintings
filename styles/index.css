@@ -28,9 +28,9 @@
   .drawer_open span:after {
     content: '';
     display: block;
-    height: 3px;
+    height: 1px;
     width: 25px;
-    border-radius: 3px;
+    /* border-radius: 3px; */
     background: rgb(255, 255, 255);
     transition: 0.5s;
     position: absolute;
@@ -77,6 +77,10 @@
   /* メニュー黒ポチを消す */
   .nav_list {
     list-style: none;
+}
+
+.nav_item {
+
 }
   
   /* アイコンがクリックされたらメニューを表示 */
@@ -322,7 +326,7 @@
 .flower-summary {
     background-color: rgba(244,242,238,0.7); 
     padding: 24px;
-    margin: 0 auto;
+    margin: 0 auto 80px;
     font-family: 'Noto Sans JP';
     font-size: 12px;
     font-weight: 300;
