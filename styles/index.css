@@ -3,7 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px
+    padding: 0 20px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
 }
 
 .drawer_hidden {
@@ -71,16 +78,38 @@
     left: 100%;
     z-index: 99;
     background: #c3aca2;
+    padding-top: 64px;
     transition: .5s;
 }
   
   /* メニュー黒ポチを消す */
+  .header_logo {
+    margin: 0 auto 64px;
+    text-align: center;
+    width: 500px;
+    display: table-cell;
+
+    
+}
+  
+  .header_wrap_logo_img {
+    display: block;
+    width: 100%;
+  }
+  
   .nav_list {
     list-style: none;
 }
 
-.nav_item {
-
+.nav_item_link {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Noto Sans JP';
+    margin: 28px 0  0;
+    font-weight: 300;
+    text-align: center;
+    display: block;
 }
   
   /* アイコンがクリックされたらメニューを表示 */
@@ -93,6 +122,10 @@
 
 .header_wrap_logo_img {
     width: 50%;
+}
+
+.wrap_logo_img {
+    width: 70%;
 }
 
 .header_wrap_index {
