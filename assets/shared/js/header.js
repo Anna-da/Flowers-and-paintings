@@ -2,7 +2,7 @@
   const headerContainer = document.querySelector('#js-Header_Container');
   const basaURL = location.host === 'anna-da.github.io' ? `${location.protocol}//${location.host}/Flowers-and-paintings` : '';
 
-  fetch(basaURL + 'assets/shared/templates/header.html')
+  fetch(basaURL + '/assets/shared/templates/header.html')
     .then((response) => response.text())
     .then((html) => {
       headerContainer.insertAdjacentHTML('afterend', html);
