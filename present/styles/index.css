@@ -59,8 +59,10 @@
     justify-content: center;
 }
  
+
 .birthday {
     padding: 12px 8px;
+    width: 50%;
 }
 
 .birthday_link {
@@ -73,6 +75,9 @@
 .birthday-img {
     position: relative;
     vertical-align: top;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 .birthday_head {

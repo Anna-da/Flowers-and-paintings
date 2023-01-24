@@ -40,6 +40,10 @@
     line-height: 2;
 }
 
+.group {
+    margin: 30px 0 0 0;
+}
+
 .group_title {
     width: 90%;
     margin: 0 auto;
@@ -120,3 +124,69 @@
 	background-color: transparent;
 }
 
+.calendar-container {
+  /* width: 500px; */
+  /* margin: 0 auto; */
+  /* border-radius: 5px; */
+  background: #f6f5f4;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+}
+
+.calendar {
+    padding: 15px 30px 30px 30px;
+    /* margin: 0 auto; */
+    /* display: block; */
+
+}
+
+.date {
+    text-align: center;
+    padding: 10px;
+    font-family: 'Noto Sans JP';
+}
+
+.calender_detail_img {
+    width: 100%;
+    display: block;
+}
+
+.calender_detail_summary {
+    background-color: rgba(124, 142, 122, 0.8);
+}
+
+.calender_detail_summary_title {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    padding: 8px 0 8px 16px;
+}
+
+.calender_detail_summary_caption {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    padding: 0 0 8px 16px;
+}
+
+.calender_detail_summary_lead_logo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.calender_detail_summary_lead {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+    padding: 0 8px 16px 16px;
+}
+
+.calender_detail_summary_logo {
+    padding: 0 16px 16px 0;
+}
