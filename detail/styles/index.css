@@ -1,4 +1,6 @@
 .hero {
+    background-color: #eeeeee;
+    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -10,7 +12,51 @@
     height: 712px;
     object-fit: cover;
     vertical-align: top;
-    margin: 60px 0 0 0;
+    margin: 0;
+}
+
+.flower-images-left-bottom {
+    object-position: left bottom;
+}
+
+.flower-images-kesi-1 {
+    object-position: 66% center;
+}
+
+.flower-images-gekkeijyu-0 {
+    object-position: 16% bottom;
+}
+
+.flower-images-daria-0 {
+    object-position: 95% center;
+}
+
+.flower-images-hasu-0 {
+    object-position: 38% center;
+}
+
+.flower-images-pnnzi-0 {
+    object-position: 44% bottom;
+}
+
+.flower-images-yuri-0 {
+    object-position: 90% bottom;
+}
+
+.flower-images-wasurenakusa-0 {
+    object-position: 100% bottom;
+}
+
+.flower-images-tubaki-0 {
+    object-position: 0% center;
+}
+
+.flower-images-syakuyaku-0 {
+    object-position: center bottom;
+}
+
+.flower-images-contain {
+    object-fit: contain;
 }
 
 .left_worktitle {
@@ -121,24 +167,40 @@
     writing-mode: vertical-rl;
     padding: 89px 0 48px 0;
     letter-spacing: 0.5em;
+    text-shadow: #fff 0 0 0.4em;
 }
 
 .wolk-meaning {
-  font-family: 'Noto Sans JP';
-  font-size: 16px;
-  font-weight: 300;
-  margin: 0 23px;
-  letter-spacing: 0.08em;
-  padding: 0 0 48px 0;
+    font-family: 'Noto Sans JP';
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 23px;
+    letter-spacing: 0.08em;
+    padding: 0 0 48px 0;
+    text-shadow: #fff 0 0 0.4em;
 }
- 
+
+.wolk-meaning a {
+    color: #000;
+}
+
+.mass-summary {
+    padding: 40px;
+}
+
 .summary {
     background-color: rgba(255,255,255,0.7); 
-    padding: 40px;
+    width: 100%;
     margin: 0 auto;
     font-family: 'Noto Sans JP';
     font-size: 16px;
     font-weight: 300;
+}
+
+td {
+    vertical-align: top;
+    padding: 0.4em 0.6em;
+    min-width: 6em;
 }
 
 .Museumsite {
