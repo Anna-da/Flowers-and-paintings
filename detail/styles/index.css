@@ -59,6 +59,14 @@
     object-fit: contain;
 }
 
+.flower-images-hiougi-0{
+    object-position: 10%;
+}
+
+.flower-images-itigo-0 {
+    object-position: 33%;
+}
+
 .left_worktitle {
     writing-mode: vertical-rl;
     top: 0%;
