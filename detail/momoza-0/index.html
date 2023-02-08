@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>絵画と花をつなげて学ぶ | {{作者}} {{タイトル名}}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="../../assets/shared/css/index.css">
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <script src="../../assets/shared/js/header.js" id="js-Header_Container"></script>
+    
+    <main class="mainfleurart-detaill">
+        <div class="hero">
+            <p class="mainart">                
+                <img class="flower-images" src="../../assets/shared/images/{{画像ファイル名}}" alt="{{タイトル名}}">
+            </p>
+
+            <p class="left_worktitle">
+                <span class="main_worktitle">
+                    <span class="wolk_title">作品名</span>
+                    <span class="wolk_contents">「{{タイトル名}}」</span>
+                </span>
+                <span class="anthor_contents">
+                    <span class="author">作者</span>
+                    <span class="wolk_author">「{{作者}}」</span>
+                </span>
+            </p>
+            <p class="right_flowertitol">
+                <span class="main_flowertitol">花言葉</span>
+                <span class="main_flowermeaning">{{花言葉}}</span>
+            </p> 
+        </div>
+
+            
+        <section class="Flower_weapper">
+            <h1 class="flower_language">{{花の名前（和名）}}<br>「{{花言葉（太字）}}」</h1>
+            <p class="flower_meaning">{{花詳細}}</p>
+        </section>
+
+        <section class="Work_weapper">
+            <h1 class="walk-name">{{タイトル名}}<br>{{作者}}</h1>
+            <p class="wolk-meaning">{{制作詳細}}</p>
+            <div class="mass-summary">
+                <table class="summary">
+                    <tr>
+                        <td>作品名</td>
+                        <td>{{タイトル名}}</td>
+                    </tr>
+                    <tr>    
+                        <td>作者</td>
+                        <td>{{作者}}</td>
+                    </tr>
+                    <!-- {{制作年・形状・寸法・技法}} -->
+                    <tr>
+                        <td>制作年</td>
+                        <td>{{}}</td>
+                    </tr>
+                    <tr>    
+                        <td>種類</td>
+                        <td>{{}}</td>
+                    </tr>
+                    <tr> 
+                        <td>寸法</td>
+                        <td>{{}}</td>
+                    </tr>
+                    <tr>
+                        <td>所蔵</td>
+                        <td>{{美術館}}</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- なかったら削除 -->
+            <div class="Museumsite">
+                <a class="Museumbutton" href="{{美術館URL}}" target="_blank">所蔵サイト</a>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="../../assets/shared/js/footer.js" id="js-Footer_Container"></script>
+</body>
+</html>
