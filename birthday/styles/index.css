@@ -147,6 +147,17 @@
     font-family: 'Noto Sans JP';
 }
 
+.date_link {
+    color: #000;
+    text-decoration: none;
+    opacity: 0.4;
+}
+
+.date_link[href] {
+    font-weight: 600;
+    opacity: 1.0;
+}
+
 .calender_detail_img {
     width: 100%;
     display: block;
