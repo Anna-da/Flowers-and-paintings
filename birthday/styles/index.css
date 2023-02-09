@@ -201,3 +201,61 @@
 .calender_detail_summary_logo {
     padding: 0 16px 16px 0;
 }
+
+.l-accordion input {
+    display: none;
+  }
+  
+  .l-accordion .l-accordion-inside {
+    height: 0;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .l-accordion input:checked~.l-accordion-inside {
+    height: auto;
+    opacity: 1;
+  }
+
+  .l-accordion .l-accordion-switch {
+    position: relative;
+    display: block;
+    padding: 0 0 36px 0;
+    cursor: pointer;
+}
+
+.title_text {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0 0 8px 24px;
+    border-bottom: 4px solid rgba(229, 145, 122, 1);
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}  
+  .l-accordion .l-accordion-switch::before,
+  .l-accordion .l-accordion-switch::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 14px;
+    height: 3px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 2px solid
+  }
+
+  .l-accordion .l-accordion-switch::after {
+    transform: translateY(-50%) rotate(90deg);
+    transition: 0.5s;
+  }
+  
+  .l-accordion input:checked~.l-accordion-switch::after {
+    transform: rotate(0);
+    transition: 0.5s;
+  }

@@ -159,3 +159,84 @@
     font-size: 16px;
     padding: 8px 0 5px 0;
 }
+
+
+
+.l-accordion input {
+    display: none;
+  }
+  
+  .l-accordion .l-accordion-inside {
+    height: 0;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .l-accordion input:checked~.l-accordion-inside {
+    height: auto;
+    opacity: 1;
+  }
+
+  .l-accordion .l-accordion-switch {
+    position: relative;
+    display: block;
+    padding: 0 0 30px 0;
+    cursor: pointer;
+}
+
+.title_text {
+    font-family: 'Noto Sans JP';
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0 0 8px 24px;
+    border-left: 8px solid rgba(233, 103, 123, 0.6);
+
+}
+
+.title_text.green {
+    border-left: 8px solid rgba(168, 209, 120, 0.6);
+}
+
+.title_text.orange {
+    border-left: 8px solid rgba(255, 183, 143, 0.6);
+}
+
+.title_text.yellwo {
+    border-left: 8px solid rgba(228, 231, 71, 0.6);
+}
+
+.title_text.paplue {
+    border-left: 8px solid rgba(178, 71, 168, 0.6);
+}
+
+.title_text.blue {
+    border-left: 8px solid rgba(143, 168, 255, 0.6);
+}
+
+
+
+  
+  .l-accordion .l-accordion-switch::before,
+  .l-accordion .l-accordion-switch::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 14px;
+    height: 3px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 2px solid
+  }
+
+  .l-accordion .l-accordion-switch::after {
+    transform: translateY(-50%) rotate(90deg);
+    transition: 0.5s;
+  }
+  
+  .l-accordion input:checked~.l-accordion-switch::after {
+    transform: rotate(0);
+    transition: 0.5s;
+  }
